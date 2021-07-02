@@ -3,4 +3,6 @@ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" php -r
 brain-games:
 	php .bin/brain-games
 validate:
-	php composer.phar validate 
+	php composer.phar validate
+lint:
+	composer exec --verbose phpcs -- --standard=PSR12 src bin
