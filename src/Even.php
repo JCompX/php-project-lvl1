@@ -10,11 +10,9 @@ function brainEven()
 {
     $name = askHim();
     line('Answer "yes" if the number is even, otherwise answer "no".');
-    
     for ($i = 0; $i < 3; $i++) {
         $num = rand(1, 100);
         $answer = prompt("Question:" . $num);
-            
         if ($answer !== 'yes' && $answer !== 'no') {
             $errorVar = ($num % 2 === 0) ? 'yes' : 'no';
             line("'{$answer}' is wrong answer ;(. Correct answer was '{$errorVar}'");
@@ -38,7 +36,6 @@ function brainEven()
         }
     }
 }
-
 
 function checkIsEven($num, $answer)
 {
