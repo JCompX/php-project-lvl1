@@ -11,7 +11,7 @@ function brainEven()
     $name = askHim();
     line('Answer "yes" if the number is even, otherwise answer "no".');
     for ($i = 0; $i < 3; $i++) {
-        $num = rand(1, 100);
+        $num = rand(1, 1000);
         $answer = prompt("Question:" . $num);
         if ($answer !== 'yes' && $answer !== 'no') {
             $errorVar = ($num % 2 === 0) ? 'yes' : 'no';
