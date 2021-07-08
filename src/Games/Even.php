@@ -9,11 +9,11 @@ use const Brain\Games\Engine\TASK_COUNTER;
 function brainEven()
 {
     $descriptionTask = 'Answer "yes" if the number is even, otherwise answer "no".';
-    $arr = [[]];    
+    $arr = [[]];
     taskFlow($descriptionTask, checkForTrue($arr));
 }
 
-function checkForTrue($arr) 
+function checkForTrue($arr)
 {
     for ($i = 0; $i < TASK_COUNTER; $i++) {
         $arr[$i][0] = rand(1, 1000);

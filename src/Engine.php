@@ -6,12 +6,10 @@ use function cli\line;
 use function cli\prompt;
 use function Brain\Games\Cli\startGame;
 
-
 const TASK_COUNTER = 3;
 
 function taskFlow($descriptionTask, $arr)
 {
-    
     $name = startGame();
     line($descriptionTask);
     foreach ($arr as [$showedQuestion, $trueAnswer]) {
