@@ -20,7 +20,17 @@ function genExpression()
         $mathOperator = '+-*';
         $selectedMathOperator = substr(str_shuffle($mathOperator), 0, 1);
         $MathExpression[$i][0] = "{$firstVal} {$selectedMathOperator} {$secondVal}";
-        $MathExpression[$i][1] = math_eval($MathExpression[$i][0]);
+        switch ($selectedMathOperator) {
+            case '-':
+                $MathExpression[$i][1] = $firstVal - $secondVal;
+                break;
+            case '+':
+                $MathExpression[$i][1] = $firstVal + $secondVal;
+                break;
+            case '*':
+                $MathExpression[$i][1] = $firstVal * $secondVal;
+                break;
+        }
     }
     return $MathExpression;
 }
