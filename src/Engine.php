@@ -14,7 +14,7 @@ function taskFlow($descriptionTask, $arr)
     line($descriptionTask);
     foreach ($arr as [$showedQuestion, $trueAnswer]) {
         $userAnswer = prompt("Question: " . $showedQuestion);
-        if ($trueAnswer === $userAnswer) {
+        if ($trueAnswer == $userAnswer) {
             line("Your answer: {$userAnswer}");
             line('Correct!');
         } else {
