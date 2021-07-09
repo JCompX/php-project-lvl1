@@ -33,3 +33,4 @@ function gcdGen($a, $b)
         gcdGen($b, $r) :
         abs($b);
 }
+
