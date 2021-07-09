@@ -9,8 +9,14 @@
 
 [![asciicast](https://asciinema.org/a/WNJ9Gi170tbKgoH8GEn4BmjyA.svg)](https://asciinema.org/a/WNJ9Gi170tbKgoH8GEn4BmjyA)
 
-### How to launch Brain-Even
+### Brain-even execution process
 
 > ```make brain-even```
 
 [![asciicast](https://asciinema.org/a/61zFEkACKmHaFEilhIDKzZaMD.svg)](https://asciinema.org/a/61zFEkACKmHaFEilhIDKzZaMD)
+
+### Brain-calc execution process
+
+> ```make brain-even```
+
+[![asciicast](https://asciinema.org/a/ksof1h2ODcttQ9b9qQ5oSoHXd.svg)](https://asciinema.org/a/ksof1h2ODcttQ9b9qQ5oSoHXd)
