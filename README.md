@@ -20,3 +20,7 @@
 > ```make brain-calc```
 
 [![asciicast](https://asciinema.org/a/ksof1h2ODcttQ9b9qQ5oSoHXd.svg)](https://asciinema.org/a/ksof1h2ODcttQ9b9qQ5oSoHXd)
+
+> ```make brain-gcd```
+
+[![asciicast](https://asciinema.org/a/4e3lWDpCTm624sBtRVWM7vhum.svg)](https://asciinema.org/a/4e3lWDpCTm624sBtRVWM7vhum)
