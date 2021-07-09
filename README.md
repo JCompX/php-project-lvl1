@@ -17,6 +17,6 @@
 
 ### Brain-calc execution process
 
-> ```make brain-even```
+> ```make brain-calc```
 
 [![asciicast](https://asciinema.org/a/ksof1h2ODcttQ9b9qQ5oSoHXd.svg)](https://asciinema.org/a/ksof1h2ODcttQ9b9qQ5oSoHXd)
