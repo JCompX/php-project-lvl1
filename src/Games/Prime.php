@@ -4,13 +4,13 @@ namespace Brain\Games\Prime;
 
 use function Brain\Games\Engine\taskFlow;
 
-function prime() : void
+function prime(): void
 {
     $descriptionTask = 'Answer "yes" if given number is prime. Otherwise answer "no".';
     taskFlow($descriptionTask, genPairs());
 }
 
-function genPairs() : array
+function genPairs(): array
 {
     $arrValues = [[]];
     for ($i = 0; $i < 3; $i++) {
@@ -27,7 +27,7 @@ function genPairs() : array
     return $arrValues;
 }
 
-function primeCheck(int $number) : bool
+function primeCheck(int $number): bool
 {
     if ($number == 1) {
         return 0;

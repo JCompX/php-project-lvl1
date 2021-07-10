@@ -4,13 +4,13 @@ namespace Brain\Games\PGS;
 
 use function Brain\Games\Engine\taskFlow;
 
-function progression() : void
+function progression(): void
 {
     $descriptionTask = 'What number is missing in the progression?';
     taskFlow($descriptionTask, genPairs());
 }
 
-function genPairs() : array
+function genPairs(): array
 {
     $a = 1;
     $b = 40;

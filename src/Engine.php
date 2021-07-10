@@ -8,7 +8,7 @@ use function Brain\Games\Cli\startGame;
 
 const TASK_COUNTER = 3;
 
-function taskFlow(string $descriptionTask, array $arr) : void
+function taskFlow(string $descriptionTask, array $arr): void
 {
     $name = startGame();
     line($descriptionTask);

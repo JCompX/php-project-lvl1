@@ -6,14 +6,14 @@ use function Brain\Games\Engine\taskFlow;
 
 use const Brain\Games\Engine\TASK_COUNTER;
 
-function brainEven() : void
+function brainEven(): void
 {
     $descriptionTask = 'Answer "yes" if the number is even, otherwise answer "no".';
     $arr = [[]];
     taskFlow($descriptionTask, checkForTrue($arr));
 }
 
-function checkForTrue($arr) : array
+function checkForTrue($arr): array
 {
     for ($i = 0; $i < TASK_COUNTER; $i++) {
         $arr[$i][0] = rand(1, 1000);
