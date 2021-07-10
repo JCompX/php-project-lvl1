@@ -32,3 +32,9 @@
 > ```make brain-progression```
 
 [![asciicast](https://asciinema.org/a/mEbaqlV1KL3xMZG4UD13kdr1Y.svg)](https://asciinema.org/a/mEbaqlV1KL3xMZG4UD13kdr1Y)
+
+### Brain-prime execution process
+
+> ```make brain-prime```
+
+[![asciicast](https://asciinema.org/a/rEUYbIYDdA03ckjyhPMNiQjNo.svg)](https://asciinema.org/a/rEUYbIYDdA03ckjyhPMNiQjNo)
