@@ -26,3 +26,9 @@
 > ```make brain-gcd```
 
 [![asciicast](https://asciinema.org/a/4e3lWDpCTm624sBtRVWM7vhum.svg)](https://asciinema.org/a/4e3lWDpCTm624sBtRVWM7vhum)
+
+### Brain-progression execution process
+
+> ```make brain-progression```
+
+[![asciicast](https://asciinema.org/a/mEbaqlV1KL3xMZG4UD13kdr1Y.svg)](https://asciinema.org/a/mEbaqlV1KL3xMZG4UD13kdr1Y)
