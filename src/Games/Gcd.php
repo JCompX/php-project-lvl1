@@ -4,13 +4,13 @@ namespace Brain\Games\GCD;
 
 use function Brain\Games\Engine\taskFlow;
 
-function gcd()
+function gcd() : void
 {
     $descriptionTask = 'Find the greatest common divisor of given numbers.';
     taskFlow($descriptionTask, genPairs());
 }
 
-function genPairs()
+function genPairs() : array
 {
     $arr = [[]];
     $i = 0;
@@ -23,7 +23,7 @@ function genPairs()
     return $arr;
 }
 
-function gcdGen($a, $b)
+function gcdGen(int $a, int $b) : string
 {
     if ($a == 0 || $b == 0) {
         return abs(max(abs($a), abs($b)));

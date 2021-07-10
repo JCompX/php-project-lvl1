@@ -4,13 +4,13 @@ namespace Brain\Games\Calc;
 
 use function Brain\Games\Engine\taskFlow;
 
-function calculator()
+function calculator() : void
 {
     $descriptionTask = 'What is the result of the expression?';
     taskFlow($descriptionTask, genExpression());
 }
 
-function genExpression()
+function genExpression() : array
 {
     $MathExpression = [[]];
     $i = 0;
