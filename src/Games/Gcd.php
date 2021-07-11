@@ -23,7 +23,7 @@ function genPairs(): array
     return $arr;
 }
 
-function gcdGen(int $a, int $b) : int
+function gcdGen(int $a, int $b): int
 {
     $r = $a % $b;
     $endValue = $r != 0 ? gcdGen($b, $r) : abs($b);
