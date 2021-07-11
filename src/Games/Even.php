@@ -13,7 +13,7 @@ function brainEven(): void
     taskFlow($descriptionTask, checkForTrue($arr));
 }
 
-function checkForTrue($arr): array
+function checkForTrue(array $arr): array
 {
     for ($i = 0; $i < TASK_COUNTER; $i++) {
         $arr[$i][0] = rand(1, 1000);

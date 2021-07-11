@@ -27,7 +27,7 @@ function genPairs(): array
     return $arrValues;
 }
 
-function primeCheck(int $number): bool
+function primeCheck(int $number): int
 {
     if ($number == 1) {
         return 0;

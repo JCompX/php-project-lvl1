@@ -23,13 +23,9 @@ function genPairs(): array
     return $arr;
 }
 
-function gcdGen(int $a, int $b): string
+function gcdGen(int $a, int $b) : int
 {
-    if ($a == 0 || $b == 0) {
-        return abs(max(abs($a), abs($b)));
-    }
     $r = $a % $b;
-    return ($r != 0) ?
-        gcdGen($b, $r) :
-        abs($b);
+    $endValue = $r != 0 ? gcdGen($b, $r) : abs($b);
+    return $endValue;
 }
