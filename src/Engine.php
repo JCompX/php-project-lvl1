@@ -25,3 +25,5 @@ function taskFlow(string $descriptionTask, array $arr): void
     }
     line("Congratulations, {$name}!");
 }
+
+linter();
